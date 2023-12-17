@@ -10,7 +10,7 @@ function App() {
   const [psiquico, setPsiquico] = useState('');
   const [destino, setDestino] = useState('');
   const [licoesCarmics, setLicoesCarmics] = useState([]);
-  const [tendenciasOcultas, setTendenciasOcultas] = useState('');
+  const [tendenciasOcultas, setTendenciasOcultas] = useState([]);
   const [respostaSubconciente, setRespostaSubconciente] = useState('');
   const [grauDeAscensao, setGrauDeAscensao] = useState('');
   const [anoPessoal, setAnoPessoal] = useState('');
