@@ -75,7 +75,10 @@ export function motivation(str) {
         }
     }
     somaProvisoria = resultado;
-    resultado = reduzNumero(resultado);
+    if (resultado != 11 && resultado != 22) {
+        resultado = reduzNumero(resultado);
+    }
+    
     return [somaProvisoria, resultado]
 }
 
